@@ -1,93 +1,60 @@
-# LaptopCheck Landing Page
+LaptopCheck by Victoire Gadget
 
-LaptopCheck is a responsive React landing page created for a laptop verification brand focused on helping buyers make smarter decisions before purchasing pre-owned or new laptops.
+LaptopCheck by Victoire Gadget is a responsive landing page built for a laptop and gadget brand that helps customers make more confident buying decisions when choosing pre-owned, UK-used, fairly used, imported, and new laptops.
 
-The page presents the brand, explains common buyer problems, highlights verification services, shows trust metrics and testimonials, and provides a simple contact form for verification requests.
+The goal of this project was to create a clean, trust-driven web experience that presents the brand’s laptop verification service in a simple, modern, and conversion-focused way.
 
-## Project Overview
+Project Goal
 
-This project was built as a modern single-page website for **LaptopCheck by Victoire Gadgets**. The goal is to communicate trust, explain the value of laptop verification, and guide potential customers toward making contact.
+The goal was to design and build a professional landing page that clearly communicates what LaptopCheck does, builds trust with potential buyers, and guides users toward taking action.
 
-## Features
+The page was created to feel like a real brand website, not just a basic frontend layout.
 
-- Responsive landing page layout
-- Hero section with call-to-action
-- Problem statement section for buyer pain points
-- About section introducing the brand
-- Services section showing what LaptopCheck verifies
-- Trust metrics bar
-- Testimonials section
-- Contact section with a verification request form
-- Compact footer with quick links and contact details
+The Challenge
 
-## Built With
+Laptop and gadget brands need more than just product listings. They need a landing page that quickly explains their value, builds trust, and helps customers understand why verification matters before buying a laptop.
+
+The challenge was to turn a service-based idea into a clear, responsive, and visually polished landing page that works well across desktop, tablet, and mobile screens.
+
+I built a responsive SaaS-style landing page using React, Vite, CSS, and reusable components.
+
+The solution focused on:
+
+- A clear hero section with strong messaging and call-to-action
+- A problem section that explains common laptop buying concerns
+- An about section that connects LaptopCheck to Victoire Gadget
+- Service cards for laptop verification, battery health, upgrade checks, and performance guidance
+- A brand/logo row to show supported laptop brands
+- A trust/impact section with quick credibility metrics
+- Testimonials that feel more realistic and brand-connected
+- A contact section that encourages users to request laptop verification
+- A responsive layout that adapts cleanly across screen sizes
+
+Features
+
+- Fully responsive landing page
+- React component-based structure
+- Reusable card component
+- Reusable button component
+- Mobile-friendly navigation
+- Clean CSS architecture
+- Modern purple brand theme
+- Lucide React icons
+- SEO-conscious copy using laptop-related keywords
+- Smooth one-page landing page structure
+
+---
+
+Tech Stack
 
 - React
 - Vite
-- CSS
-- Lucide React Icons
+- CSS3
+- Lucide React
+- Vercel
 
-## Page Sections
 
-- `Navbar`
-- `Hero`
-- `Problem`
-- `About`
-- `Services`
-- `StatsBar`
-- `Testimonials`
-- `Contact`
-- `Footer`
+This project focused on building a clean and scalable frontend structure with reusable UI components, consistent spacing, responsive layouts, and a modern visual hierarchy.
 
-## Getting Started
+The main focus was not just to build a page, but to create a landing page that feels useful, trustworthy, and realistic for a laptop/gadget brand.
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/ethelfausti/LaptopCheck.git
-cd LaptopCheck
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-### 4. Build for production
-
-```bash
-npm run build
-```
-
-## Project Structure
-
-```text
-src/
-  assets/
-  components/
-    layout/
-    sections/
-    styles/
-    ui/
-  App.jsx
-  main.jsx
-```
-
-## Design Notes
-
-- The layout uses a soft purple visual identity to reflect trust and clarity.
-- The page was designed to stay clean and readable across desktop, tablet, and mobile screens.
-- Reusable UI patterns were used for cards, buttons, and section spacing.
-
-## Author
-
-**Ethel Fausti**
-
-GitHub: [@ethelfausti](https://github.com/ethelfausti)
