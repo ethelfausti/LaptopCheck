@@ -1,0 +1,78 @@
+.info-card {
+
+  background: var(--white);
+  border: 1px solid rgba(15, 16, 40, 0.06);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(15, 16, 40, 0.05);
+  transition: 0.3s ease;
+}
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px rgba(15, 16, 40, 0.06);
+}
+
+.info-card-icon-wrap {
+  margin-bottom: 0.95rem;
+}
+
+.info-card-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.info-card-icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  stroke-width: 2;
+}
+
+.info-card-title {
+  color: var(--text-dark);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.info-card-text {
+  margin-top: 0.65rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.info-card--problem .info-card-icon {
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--danger);
+}
+
+.info-card--service .info-card-icon,
+.info-card--trust .info-card-icon {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .info-card {
+    padding: 1.15rem 1rem 1.1rem;
+  }
+
+  .info-card-icon {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+
+  .info-card-title {
+    font-size: 0.96rem;
+  }
+
+  .info-card-text {
+    font-size: 0.88rem;
+  }
+}

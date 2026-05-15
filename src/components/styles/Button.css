@@ -1,0 +1,54 @@
+.ui-button {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  line-height: 1;
+  transition: background-color 0.25s ease;
+}
+
+.ui-button:hover {
+  background-color: var(--primary-dark);
+}
+
+.ui-button svg {
+  vertical-align: middle;
+}
+
+.ui-button-text-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .ui-button {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.72rem;
+    gap: 6px;
+  }
+
+  .ui-button svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .ui-button-text-desktop {
+    display: none;
+  }
+
+  .ui-button-text-mobile {
+    display: inline;
+  }
+}
+
+@media (max-width: 480px) {
+  .ui-button {
+    padding: 0.42rem 0.65rem;
+    font-size: 0.68rem;
+  }
+}
